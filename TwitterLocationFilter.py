@@ -1,13 +1,15 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # <nbformat>3.0</nbformat>
 
 # <codecell>
 
 from twython import Twython
-APP_KEY = ''
-APP_SECRET = ''
-OAUTH_TOKEN  =  ''
-OAUTH_TOKEN_SECRET = ''    
+import secret
+APP_KEY = secret.APP_KEY
+APP_SECRET = secret.APP_SECRET
+OAUTH_TOKEN  = secret.OAUTH_TOKEN
+OAUTH_TOKEN_SECRET = secret.OAUTH_TOKEN_SECRET
 
 # <codecell>
 
